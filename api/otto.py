@@ -1,9 +1,6 @@
 # coding: utf-8
-import base64
 import json
 import os
-import time
-import uuid
 import numpy as np
 from pypinyin import lazy_pinyin
 import soundfile as sf
