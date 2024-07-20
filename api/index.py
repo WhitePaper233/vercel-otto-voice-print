@@ -14,6 +14,6 @@ def api():
     
     otto = OTTO()
     otto.generate(content)
-    otto.export_file('./output.wav')
+    otto.export_file('/tmp/output.wav')
 
-    return send_file('./output.wav', as_attachment=True)
+    return send_file('/tmp/output.wav', as_attachment=True)
