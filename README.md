@@ -34,6 +34,7 @@
 
 ## 感谢
 - [sakaneko117 / HUOZI](https://github.com/sakaneko117/HUOZI) 提供了原素材及音频处理相关代码
+- [hua-zhi-wan / otto-hzys](https://github.com/hua-zhi-wan/otto-hzys) 提供素材
 
 ## 免责条款
 
