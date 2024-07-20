@@ -19,7 +19,7 @@ def api():
     
     # 生成音频
     otto = OTTO()
-    otto.generate(content, raw_mode, pitch, speed, norm)
+    otto.generate(content, lambda : raw_mode == 'true', float(pitch), float(speed), lambda : norm == 'true')
 
     # 导出文件
     file_name = uuid.uuid4().hex
